@@ -8903,12 +8903,3 @@ campaignTrail_temp.jet_data = [{
 }
 ]
 
-function changetitle(){
-if (document.getElementById("campaign_sign")!=null) {
-overallthing=document.getElementById("campaign_sign").innerHTML;
-overallthing.toString()
-overallthing=overallthing.replace("<p>Schwarzenegger</p>","<p><small>Schwarzenegger</small></p>")
-document.getElementById("campaign_sign").innerHTML=overallthing
-}
-}
-window.setInterval(changetitle,200)
