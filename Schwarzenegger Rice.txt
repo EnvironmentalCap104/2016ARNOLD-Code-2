@@ -9095,7 +9095,7 @@ campaignTrail_temp.answer_feedback_json = [
 
 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/7xebkWM.png";
 campaignTrail_temp.running_mate_image_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Condoleezza_Rice_cropped.jpg/330px-Condoleezza_Rice_cropped.jpg";
-campaignTrail_temp.candidate_last_name = "Schwarzenegger";
+campaignTrail_temp.candidate_last_name = "<small>Schwarzenegger</small>";
 campaignTrail_temp.running_mate_last_name = "Rice";
 
 campaignTrail_temp.multiple_endings = true;
@@ -9295,12 +9295,3 @@ campaignTrail_temp.jet_data = [{
 }
 ]
 
-function changetitle(){
-if (document.getElementById("campaign_sign")!=null) {
-overallthing=document.getElementById("campaign_sign").innerHTML;
-overallthing.toString()
-overallthing=overallthing.replace("<p>Schwarzenegger</p>","<p><small>Schwarzenegger</small></p>")
-document.getElementById("campaign_sign").innerHTML=overallthing
-}
-}
-window.setInterval(changetitle,200)
